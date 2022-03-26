@@ -1,0 +1,18 @@
+<!doctype html>
+<head></head>
+<body>
+<div class="wrapper">
+<div class="watchContainer">
+<div class="videoControls watchNav" style="display: none;"></div>
+<div class="videoControls upNext"> == $0
+<button></button>
+<div class="upNextContainer">
+<h2>Up next:</h2>
+<h3>The Licking Flowers</h3>
+<h3>Season 2, Episode 4</h3>
+<button class="playNext">
+<i class="fas fa-play" aria-hidden="true"></i>
+"Play"
+</button>
+</div>
+</div>
