@@ -6,6 +6,9 @@
   <body>
     <div class="SignInContainer">
       <div class="column">
+        <form method="POST">
+          <input type="text" >
+        </form>
       </div>
     </div>
   </body>
