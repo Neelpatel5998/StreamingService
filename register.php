@@ -3,8 +3,10 @@
     <title>Welcome to Reeceflix</title>
     <link rel="stylesheet" type="text/css" href="assets/style/style.css" />
   </head>
-<?php
   <body>
-    hotdogs
+    <div class="SignInContainer">
+      <div class="column">
+      </div>
+    </div>
   </body>
 </html>
