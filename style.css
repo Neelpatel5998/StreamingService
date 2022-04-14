@@ -18,6 +18,19 @@ body {
     width: 450px;
 }
 
+.column form {
+     
+}
+
+.column form input[type="text"],
+.column form input[type="email"],
+.column form input[type="password] {
+    font-size: 14px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #dedede;
+}
+
 .videoControls button {
      font-size: 50px;
      padding: 50px;
