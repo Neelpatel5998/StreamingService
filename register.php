@@ -13,8 +13,10 @@
       <div class="column">
           
           <div class="header">
+               <img src="assets/images/logo.png" title="Logo" alt="Site logo" />
               <h3>Sign Up</h3>
               <span>to continue to Reeceflix</span>
+             
           </div>
           
         <form method="POST">
