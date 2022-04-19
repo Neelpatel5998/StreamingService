@@ -64,6 +64,14 @@ body {
      color: #000;
 }
 
+.column .header span {
+     font-size: 14px;
+}
+
+.column .header img {
+     width: 100px;
+}
+
 .column span {
      font-size: 24px;
 }
