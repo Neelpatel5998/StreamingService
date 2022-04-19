@@ -11,6 +11,12 @@
   <body>
     <div class="SignInContainer">
       <div class="column">
+          
+          <div class="header">
+              <h3>Sign Up</h3>
+              <span>to continue to Reeceflix</span>
+          </div>
+          
         <form method="POST">
           <input type="text" name="firstName" placeholder="First name" required>
           
