@@ -1,8 +1,9 @@
 <?php
+require_once("includes/classes/FormSanitizer.php");
     if(isset($_POST["submitButton"])) {
        
-        $firstName = sanitizeFormString($_POST["firstName"]);
-        echo $firstName;
+        $firstName = FormSanitizer::sanitizeFormString($_POST["firstName"]);
+        
         
     }  
 
