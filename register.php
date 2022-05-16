@@ -37,7 +37,7 @@ require_once("includes/classes/Account.php");
           
         <form method="POST">
             
-          <?php echo $account->getError("First name wrong length"); ?>
+          <?php echo $account->getError(Constants::$firstNameCharacters); ?>
           <input type="text" name="firstName" placeholder="First name" required>
           
           <input type="text" name="lastName" placeholder="Last name" required>
