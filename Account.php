@@ -14,6 +14,12 @@ class Account {
       }
   }
   
+  public function validateLastName($ln) {
+      if(strlen($ln) < 2 || strlen($ln) > 25) {
+          array_push($this->errorArray, Constants::$firstNameCharacters);
+      }
+  }
+  
   public function getError($error) {
       if(in_array($error, $this->errorArray)) {
           return $error;
