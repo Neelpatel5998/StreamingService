@@ -16,7 +16,7 @@ class Account {
   
   public function validateLastName($ln) {
       if(strlen($ln) < 2 || strlen($ln) > 25) {
-          array_push($this->errorArray, Constants::$firstNameCharacters);
+          array_push($this->errorArray, Constants::$lastNameCharacters);
       }
   }
   
